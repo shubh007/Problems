@@ -4,17 +4,17 @@ package in.theforloop.binaryTree;
  * @author Shubham
  */
 public class Data {
-    private int key;
+    private Integer key;
 
-    public int getKey() {
+    public Integer getKey() {
         return key;
     }
 
-    public void setKey(int key) {
+    public void setKey(Integer key) {
         this.key = key;
     }
 
-    public Data(int key) {
+    public Data(Integer key) {
         this.key = key;
     }
 
