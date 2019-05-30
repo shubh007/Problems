@@ -1,15 +1,16 @@
 package in.theforloop.problems;
 
 import in.theforloop.binaryTree.BNode;
-import in.theforloop.binaryTree.Data;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author Shubham
  */
 public class MaximumWidth {
     public Integer maxWidthMap(BNode root){
+
         Queue<BNode> levelNodeQueue = new LinkedList<>();
         levelNodeQueue.add(root);
         Integer maxWidth = 0;
